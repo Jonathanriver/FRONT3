@@ -1,0 +1,28 @@
+.elemento-media {
+    height: 100vh;
+}
+
+.margin-top-card {
+
+    margin: 30vh 20px 0px 20px;
+    border: none !important;
+}
+
+.input-text-custom {
+    border-top: 2px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 2px silver solid !important;
+    border-radius: 0px !important;
+}
+
+
+@media (max-width: 575px) {
+    .elemento-media {
+        height: 0vh;
+    }
+
+    .hidden {
+        display: none;
+    }
+}
